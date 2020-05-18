@@ -1,6 +1,6 @@
-LABEL maintainer="Tibor Hudik <tibor@barrage.net>"
-
 FROM node:12
+
+LABEL maintainer="Tibor Hudik <tibor@barrage.net>"
 
 # download wkhtmltox package
 ADD https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.stretch_amd64.deb /opt
